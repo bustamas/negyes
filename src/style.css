@@ -1,69 +1,30 @@
+#msg {
+  font-size: 24px;
+  position: absolute;
+  z-index: 2;
+  background-color: green;
+  color: white;
+  width: auto;
+  left: calc(50% - 25%);
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid red;
+  padding: 20px;
+  display: none; /* Alapértelmezés szerint rejtve */
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+}
 .card {
   width: 100px;
   height: 140px;
-  background-color: aqua;
-  margin: 5px;
-  position: absolute;
-}
-#card02 {
-  left: 120px;
-}
-#card03 {
-  left: 240px;
-}
-#card04 {
-  left: 360px;
-}
-#card05 {
-  left: 0px;
-  top: 150px;
-}
-#card06 {
-  left: 120px;
-  top: 150px;
-}
-#card07 {
-  left: 240px;
-  top: 150px;
-}
-#card08 {
-  left: 360px;
-  top: 150px;
-}
-#card09 {
-  left: 0px;
-  top: 300px;
-}
-#card10 {
-  left: 0px;
-  top: 300px;
-}
-#card11 {
-  left: 0px;
-  top: 300px;
-}
-#card12 {
-  left: 0px;
-  top: 300px;
-}
-#card13 {
-  left: 0px;
-  top: 300px;
-}
-#card14 {
-  left: 0px;
-  top: 300px;
-}
-#card15 {
-  left: 0px;
-  top: 300px;
-}
-#card16 {
-  left: 0px;
-  top: 300px;
-}
-
-
-.cards {
-  position: relative;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
 }
