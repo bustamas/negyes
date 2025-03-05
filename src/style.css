@@ -1,0 +1,49 @@
+.card {
+  width: 100px;
+  height: 140px;
+  background-color: aqua;
+  margin: 5px;
+  position: absolute;
+}
+
+#card02 {
+  left: 120px;
+}
+
+#card03 {
+  left: 240px;
+}
+
+#card04 {
+  left: 360px;
+}
+
+#card05 {
+  left: 0px;
+  top: 150px;
+}
+
+#card06 {
+  left: 120px;
+  top: 150px;
+}
+
+#card07 {
+  left: 240px;
+  top: 150px;
+}
+
+#card08 {
+  left: 360px;
+  top: 150px;
+}
+
+
+#card09 {
+  left: 0px;
+  top: 300px;
+}
+
+.cards {
+  position: relative;
+}
